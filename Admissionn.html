@@ -1,0 +1,55 @@
+<br><br>
+<center>
+  <h1>SCSVMV Admission Form For 2026</h1>
+  <h2>College Admission Portal</h2>
+  <p>Please complete the application details below.</p>
+  <br>
+<form action="register.php" method="GET">
+  <table>
+    <tr>
+      <td><label for="fullName">Full Name:</label></td>
+      <td><input type="text" id="fullName" name="fullName" required></td>
+    </tr>
+    <tr>
+      <td><label for="userEmail">Email Address:</label></td>
+      <td><input type="email" id="userEmail" name="userEmail" required></td>
+    </tr>
+    <tr>
+      <td><label for="phoneNumber">Phone No:</label></td>
+      <td><input type="tel" id="phoneNumber" name="phoneNumber"  required></td>
+    </tr>
+    <tr>
+      <td><label for="country">Country:</label></td>
+      <td>
+        <select id="country" name="country">
+          <option value="united_states">United States</option>
+          <option value="canada">Canada</option>
+          <option value="india">India</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Preferred Contact Method:</td>
+      <td>
+        <input type="radio" id="contactEmail" name="contactMethod" value="email" checked>
+        <label for="contactEmail">Email</label>
+        <input type="radio" id="contactPhone" name="contactMethod" value="phone">
+        <label for="contactPhone">Phone</label>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">I agree to the terms and conditions.</label>
+      </td>
+    </tr>
+    <tr>
+      <td><label for="message">Comments:</label></td>
+      <td><textarea id="message" name="message" rows="4" cols="30"></textarea></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><button type="submit">Submit Form</button></td>
+    </tr>
+  </table>
+</form>
